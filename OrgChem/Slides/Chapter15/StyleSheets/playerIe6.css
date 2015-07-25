@@ -1,0 +1,10 @@
+@charset "utf-8";
+body
+{
+  behavior: url(Scripts/csshover3.htc);
+}
+#logPanel
+{
+  top: 0;
+  left: 0;
+}

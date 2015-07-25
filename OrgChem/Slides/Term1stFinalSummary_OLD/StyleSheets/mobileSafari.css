@@ -1,0 +1,9 @@
+#sidePanelScroller
+{
+  height: 90%;
+}
+#slideListScrollButtonPanel
+{
+  height: 10%;
+  visibility: visible;
+}

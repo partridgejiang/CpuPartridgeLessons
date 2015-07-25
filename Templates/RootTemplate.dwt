@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title></title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" type="text/css" href="../Resources/StyleSheets/Default.css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+  <div class="Header">
+    <div class="HeadTitle"><h1><!-- TemplateBeginEditable name="HeadTitle" --><span>HeadTitle</span><!-- TemplateEndEditable --></h1></div>
+    <!-- Navigator -->
+    <div class="NavMenu">
+      <ul>
+        <!-- TemplateBeginEditable name="NavMenu" -->
+        <li><a href="#">Item1</a></li>
+        <li><a href="#">Item2</a></li>
+        <!-- TemplateEndEditable -->      
+      </ul>
+    </div>
+  </div>
+  
+<div id="container">    
+    <!-- MainContent -->
+    <div class="MainContent">
+      <h1><!-- TemplateBeginEditable name="ContentTitle" -->ContentTitle<!-- TemplateEndEditable --></h1>
+      <div class="Content">
+				<!-- TemplateBeginEditable name="MainContent" -->
+        MainContent
+        <!-- TemplateEndEditable -->    
+      </div>
+</div>
+		<!-- Sidebar  -->
+    <div class="Sidebar">
+		  <!-- TemplateBeginEditable name="SideBarContent" --><!-- TemplateEndEditable -->      
+      <div id="sideAds"> <!-- Google Ads -->
+        <script type="text/javascript"><!--
+					google_ad_client = "ca-pub-8145556450134029";
+					/* VerticalAd1 */
+					google_ad_slot = "1502642611";
+					google_ad_width = 160;
+					google_ad_height = 600;
+					//-->
+				</script>
+				<script type="text/javascript"
+					src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+				</script>
+      </div>
+    </div>   
+  </div>
+  
+  <!-- Footer -->
+  <div class="Footer">
+    <p>
+	  <!-- TemplateBeginEditable name="Footer" -->Designed by Partridge<!-- TemplateEndEditable -->
+    </p>
+  </div>
+</body>
+</html>

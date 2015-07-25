@@ -1,0 +1,75 @@
+@charset "utf-8";
+html, body
+{
+  background-color: #000;
+  color: #fff;
+}
+.Slide
+{
+  border-color: #555;
+}
+#wsSplash
+{
+  background-color: #000000;
+  color:#ddd;
+}
+#wsSplash #wsSplashNotify, #noScriptNotify
+{
+  color: #fff;
+}
+#noScriptNotify
+{
+  background-color:#555;
+}
+#controlPanel #wsSlideDir
+{
+  background-color: #eee;
+  color: #333;
+}
+#controlPanel #wsSlideDir ol li
+{
+  border-color: #bbb;
+}
+#controlPanel #wsSlideDir ol li a
+{
+  color: #333;
+}
+#controlPanel #wsSlideDir ol li a:hover
+{
+  color: #fff;
+  background-color: #333;
+}
+#controlPanel a
+{
+}
+#logPanel
+{
+  background-color: #222;
+}
+#logPanelTitle
+{
+  background-color: #aaa;
+  color: #000;  
+}
+#logPanelTitle a.LogPanelCloser
+{
+  background-image:url(../Images/closerAll.gif);
+}
+#wsLog
+{
+  border: solid medium #aaa;
+  border-top: none;
+  color: #777777;
+}
+#wsLog p
+{
+  border-bottom: #999999 1px dotted;
+}
+#wsLog .Warning
+{
+  color: #999999;
+}
+#wsLog .Error
+{
+  color: #FF0000;
+}

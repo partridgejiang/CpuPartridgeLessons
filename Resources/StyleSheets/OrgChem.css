@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+.HeadTitle h1
+{
+  background:url(../../OrgChem/Images/TitleBar.jpg) right top no-repeat #fff;
+}
+
+.ExerciseContent
+{
+  margin-left: 2em;
+}
+
+.Answer
+{
+  border: 1px dashed red;
+}
+
+.Content .CoverCol
+{
+  width: 45%;
+  margin-right: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  float: left;
+}
+
+.Content .CoverCol .Head
+{
+  background-color: #333;
+  color: #fff;
+  padding: 0.2em 1em;
+  font-size: 1.2em;
+}

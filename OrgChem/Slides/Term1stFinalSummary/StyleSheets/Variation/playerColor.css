@@ -1,0 +1,154 @@
+@charset "utf-8";
+html, body
+{
+  background-color: #FFFFFF;
+}
+.Slide
+{
+  border-color: #999;
+}
+#wsStage
+{
+  border: #999999 2px solid;
+}
+#wsSplash
+{
+  background-color: #FFFFFF;
+  color: #999999;
+}
+#wsSplash #wsSplashNotify, #noScriptNotify
+{
+  background-color: #FFFF66;
+  color: #333;
+}
+#wsStatus
+{
+  border-bottom: 2px solid #999999;
+  color: #555;
+}
+#webPointMark
+{
+  border-color: #999;
+}
+#createdByWebPoint
+{
+  background-color: #ffffff;
+  border-color: #999999;  
+}
+#browserRecomm
+{
+  background-color: #ffffff;
+  border-color: #999999;
+}
+#wsController #navHelp
+{
+  background-image: url(Images/btnHelpAll.gif);
+}
+#wsController #navPrevSlide
+{
+  background-image: url(Images/btnPrevSlideAll.gif);
+}
+#wsController #navPrevstep
+{
+  background-image: url(Images/btnPrevStepAll.gif);
+}
+#wsController #navNextSlide
+{
+  background-image: url(Images/btnNextSlideAll.gif);
+}
+#navAutoPlay
+{
+  background-image: url(Images/btnAutoPlayOffAll.gif);
+}
+#navAutoPlay.Checked
+{
+  background-image: url(Images/btnAutoPlayAll.gif);
+}
+#navLog
+{
+  background-image: url(Images/btnLogAll.gif);
+}
+#navLog.Checked
+{
+  background-image: url(Images/btnLogCloseAll.gif);
+}
+#wsController #navNextStep
+{
+  background-image: url(Images/btnNextStepAll.gif);
+}
+#sidePanelClient
+{
+  border: #999999 solid 4px;
+  border-left: none;  
+  background-color:#FFFFFF;
+}
+#slideListScrollButtonPanel
+{
+  background-color: #fff;
+}
+.BtnScroll
+{
+  border-color: #fff;
+}
+#btnSlideListScrollUp
+{
+  border-bottom-color: #999;
+}
+#btnSlideListScrollUp:hover
+{
+  border-bottom-color: #333;
+}
+#btnSlideListScrollDown
+{
+  border-top-color: #999;
+}
+#btnSlideListScrollDown:hover
+{
+  border-top-color: #333;
+}
+#tabSlideDir
+{
+  background-image: url(Images/tabSlideDir.gif);
+}
+#wsSlideDir li, #wsSlideDir li a
+{
+  color: #555555;
+}
+#wsSlideDir .HiddenSlideItem a
+{
+  color: #999999;
+}
+#wsSlideDir li a:hover
+{
+  color: #222222;
+}
+#logPanel
+{
+  background-color: #FFFFFF;
+}
+#logPanelTitle
+{
+  background-color: #999999;
+  color: #FFFFFF;  
+}
+#logPanelTitle a.LogPanelCloser
+{
+  background-image:url(Images/closerAll.gif);
+}
+#wsLog
+{
+  border: #999999 2px solid;
+  color: #777777;
+}
+#wsLog p
+{
+  border-bottom: #999999 1px dotted;
+}
+#wsLog .Warning
+{
+  color: #444444;
+}
+#wsLog .Error
+{
+  color: #FF0000;
+}

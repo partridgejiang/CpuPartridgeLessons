@@ -1,0 +1,302 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body
+{
+  margin: 0;
+  padding: 0;
+}
+
+.FloatClearer
+{
+  font-size: 0;
+  height: 0;
+  margin; 0;
+  padding: 0;
+  line-height: 0;
+  clear: both;
+}
+
+.Header
+{
+  position: relative;
+  font-family: "微软雅黑", "黑体", serif;
+  zoom: 1;
+}
+
+/************ HeadTitle **************/
+.HeadTitle
+{
+  font-size: 1em;
+  position: relative;
+  overflow: hidden;
+  padding: 0.5em 1em 0.5em 1em;
+  zoom: 1;
+  z-index: 15;
+}
+
+.HeadTitle h1
+{
+  font-size: 2em;
+  float: right;
+  position: relative;
+  width: 600px;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  text-indent: -10000em;
+  border: 2px solid #999;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  background-color: #fff;
+  box-shadow: #666 3px 3px 6px;
+  z-index: 15;
+  zoom: 1;
+}
+
+
+/************ NavMenu **************/
+.NavMenu
+{
+  position: relative;
+  /*margin-top: -1.5em;*/
+  background-color: #ccc;
+  margin-top: -2em;
+  clear: both;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.NavMenu ul
+{
+  font-size: 1.2em;
+  list-style-type: none;
+  position: relative;
+  padding: 0 1em;
+  float: left;
+  background-color: #ccc;  
+  margin: 0;
+  z-index: 20;
+}
+
+.NavMenu ul li
+{
+  float: left;
+  z-index: 20;
+}
+
+.NavMenu ul a
+{
+  display: block;
+  padding: 0.2em 1em;
+  text-decoration: none;
+  color: #000;
+  
+  transition: all 0.5s ease-in-out; 
+  -webkit-transition: all 0.5s ease-in-out; 
+  -moz-transition: all 0.5s ease-in-out; 
+  -o-transition: all 0.5s ease-in-out;
+}
+
+.NavMenu ul a:hover
+{
+  background-color: #333;
+  color: #fff;
+}
+
+/************ container **************/
+#container
+{
+  position: relative;
+  margin: 1em;
+  zoom: 1;
+}
+
+/************ Sidebar **************/
+.Sidebar
+{
+  /*float: right;*/
+  width: 165px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0 10px;
+  background-color: #fff;
+  z-index: 5;
+}
+
+/************ MainContent **************/
+.MainContent
+{
+  margin: 0 190px 2.5em 2em;
+}
+
+.MainContent h1
+{
+  text-shadow: #aaa 0.1em 0.1em 0.1em;
+}
+
+.MainContent h1, .MainContent h2, .MainContent h3, .MainContent h4, .MainContent h5, .MainContent h6
+{
+  font-family: "微软雅黑", "黑体", serif;
+  padding: 0;
+  margin: 0.5em 0;
+}
+
+.Content
+{
+  font-family: "微软雅黑", "宋体", sans-serif;
+  line-height: 1.5;
+  overflow: hidden;
+  /*
+  border: 1px solid #eee;  
+  border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  */
+}
+
+.Content p
+{
+  padding: 0;
+  margin: 0.4em 0;
+}
+
+.Content .Group
+{
+  margin: 0.5em 0;
+  padding: 0.5em 1em;
+  border: 1px solid #ccc;  
+  border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  overflow: hidden;
+}
+
+.Content .Group .Head
+{
+  font-size: 1em;
+  margin: -0.5em -1em 0.5em -1em;
+  padding: 0.3em 0.5em;
+  background-color: #ccc;
+}
+
+.Content .Group .Section
+{
+  border-bottom: 1px dotted #ccc;
+}
+.Content .Group .Section h2
+{
+  padding: 0.3em 1em;
+}
+.Content .Group .Section:hover h2
+{
+  background-color: #eee;
+}
+.Content .Group .Section ul
+{
+  padding: 0 1em;
+  margin: 0 1em;
+}
+
+.Content .Group .Section h2
+{
+  font-size: 1em;
+}
+
+/* News */
+.NewsList
+{
+  margin: -0.5em -1em;
+}
+
+.NewsList .Section
+{
+  padding: 0.3em 1em;
+}
+
+.NewsList .Section:hover
+{
+  background-color: #eee;
+}
+
+.NewsList h2
+{
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 0;
+  margin: 0.2em 0;
+}
+
+.NewsList h2 .Date
+{
+  font-size: 0.8em;
+  font-weight: normal;
+  color: #666;
+  margin: 0 2em;
+}
+
+.NewsList p
+{
+  text-indent: 2em;
+  padding: 0;
+  margin: 0;
+}
+
+table.BriefTable
+{
+  border-collapse: collapse;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-color: #666;
+}
+
+table.BriefTable thead
+{
+  border-bottom: 1px solid #666;
+}
+
+table.BriefTable td
+{
+  padding: 0.2em 1em;
+}
+
+table.BriefTable tr:hover
+{
+  background-color: #ccc;
+}
+
+
+/************ MainContent **************/
+.Footer
+{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.8em;
+  background-color: #fff;
+}
+
+.Footer p
+{
+  border-top: 2px groove #999;
+  margin: 0.5em;
+  padding: 0;
+  text-align: center;
+  background-color: #fff;  
+}
+
+.FootNoteMark
+{
+	font-size: 0.7em;
+	vertical-align: super;
+	color: #630;
+}
+
+/********** Anti Ads ****************/
+.popup, .bModal, #visas_style_div
+{
+	visibility: hidden;
+	display: none; !IMPORTANT
+}

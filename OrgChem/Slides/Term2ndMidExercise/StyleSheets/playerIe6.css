@@ -1,0 +1,18 @@
+@charset "utf-8";
+#logPanel
+{
+  top: 0;
+  left: 0;
+}
+#sidePanelClient
+{
+  height: 480px;
+}
+#sidePanelScroller
+{
+  height: 100%;
+}
+#slideListScrollButtonPanel
+{
+  display: none;
+}
