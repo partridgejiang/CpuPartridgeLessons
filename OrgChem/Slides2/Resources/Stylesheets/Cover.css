@@ -1,0 +1,269 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body
+{
+	margin: 0;
+  padding: 0;
+  width: 100%
+  height: 100%;
+}
+
+body
+{
+  background-color: #fff;
+  background-image: url(../Images/CoverBack.png);
+  background-repeat: repeat-x;
+  background-position: top left;
+  min-width: 1100px;
+  min-height: 560px;
+  font-size: 16px;
+}
+
+#headBlock
+{
+  background-image: url(../Images/NMR.png);
+  background-position: 0px 0px ;
+  background-repeat: repeat-x;
+  font-family: "微软雅黑", "黑体", sans-serif;
+  font-weight: normal;
+  color: #094d41;
+  
+  height: 210px;
+}
+
+#headBlock h1, #headBlock h2
+{
+  margin: 0;
+  padding: 0;
+}
+
+#headBlock h1#mainTitle
+{
+  width: 379px;
+  height: 94px;
+  margin: 30px 50px auto 250px;
+  float: left;
+  display: inline;  /* fix IE6 double margin bug */
+  font-size: 4em;
+  
+  background-image: url(../Images/CoverTitle.gif);
+  background-position: center left;
+  background-repeat: no-repeat;
+}
+
+#headBlock #mainTitle span
+{
+	display: none;
+}
+
+#headBlock h2#subTitle
+{
+  float: right;
+  width: 300px;
+  height: 50px;
+  margin: 160px 20px 0 20px;  
+  display: inline;  /* fix IE6 double margin bug */  
+  
+  background-image: url(../Images/CoverSubTitle.gif);
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+
+#headBlock h2#subTitle span
+{
+  display: none;
+}
+
+#chapters
+{
+  /*float: right;*/
+  font-size: 1.2em;
+  line-height: 1;
+  font-family: "微软雅黑", "宋体", serif;
+  color: #666;
+}
+
+#chapters table
+{
+  float: right;
+}
+
+#chapters table td
+{
+  vertical-align: top;
+}
+
+#chapters ul
+{
+  /*float: left;
+  display: inline; /* fix IE6 double margin bug */
+  margin: 0.5em 0.2em 0.5em 0.2em;
+  padding: 0;
+  list-style-type: none;
+  zoom: 1;
+}
+
+#chapters ul li
+{
+  margin: 0.1em 1em;
+  clear: both;
+  overflow: hidden;
+  zoom: 1;  
+}
+
+/*
+#chapters ul.FirstList 
+{
+  text-align: right;
+}
+
+#chapters ul.SecondList
+{
+  text-align: left;
+}
+*/
+
+/*
+#chapters ul li a, #chapters ul li span
+{
+  display: block;
+  zoom: 1;
+}
+#chapters ul li span
+{
+  display: block;
+  margin: auto 0.2em;
+}
+
+#chapters ul.FirstList li span
+{
+  float: right;
+}
+#chapters ul.SecondList li span
+{
+  float: left;
+}
+*/
+
+#chapters ul .EnTitle
+{
+  font-size: 0.75em;
+  line-height: 1.4em;
+  /*visibility: hidden;*/
+  display: none;
+}
+
+#chapters ul.FirstList
+{
+  text-align: right;
+}
+#chapters ul.SecondList li span
+{
+  text-align: left;
+}
+
+#chapters a
+{
+  display: block;
+  padding: 0.1em 0.4em;
+  color: #666;  
+  border-color: #fff;
+    
+  text-decoration: none;
+  overflow: hidden;
+}
+
+#chapters ul.FirstList a
+{
+  border-bottom: solid 2px;
+  border-right: solid 4px;
+  border-color: #fff;
+}
+
+#chapters ul.SecondList a
+{
+  border-bottom: solid 2px;
+  border-Left: solid 4px;
+  border-color: #fff;
+}
+
+#chapters ul a:hover
+{
+  color: #222;
+  font-weight: bold;
+  border-color: #444;
+}
+
+#chapters a:hover .EnTitle
+{
+  /*visibility: visible;*/
+}
+
+#footer
+{
+  position: fixed !IMPORTANT;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 25px;
+}
+
+#footer #footerBack
+{
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.5;
+  filter:alpha(opacity=50);
+}
+
+#footer span
+{
+  float: right;
+  color: #fff;
+  font-family: "微软雅黑", "宋体", serif;
+  font-size: 16px;
+  line-height: 25px;
+  margin: 0 140px 0 0px;
+}
+
+a#withFirefox
+{
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  width: 110px;
+  height: 40px;
+  background-color: #fff;
+  background-image: url(../Images/withFirefox.gif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #999;
+  border: 1px solid;
+}
+
+a#withFirefox span
+{
+  /*visibility: hidden;*/
+  display: none;
+}
+
+#coverBgElement
+{
+  z-index: -2;
+  position: absolute;
+  top: 220px;
+  left: 0;
+  width: 476px;
+  height: 389px;
+  
+  background-image: url(../Images/CoverBackElement.gif);
+  background-position: top right;
+  background-repeat: no-repeat;
+}
