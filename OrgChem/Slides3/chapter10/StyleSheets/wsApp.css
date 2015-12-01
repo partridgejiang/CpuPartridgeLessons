@@ -1,0 +1,495 @@
+﻿.SlideFrame
+{
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  border:none;
+  position:absolute;
+}
+
+.SlideFrame
+{
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  border:none;
+  position:absolute;
+}
+
+.SlideFrame
+{
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  border:none;
+  position:absolute;
+}
+
+.SlideFrame
+{
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  border:none;
+  position:absolute;
+}
+
+.SlideFrame
+{
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  border:none;
+  position:absolute;
+}
+
+.SlideFrame
+{
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  border:none;
+  position:absolute;
+}
+
+.SlideFrame
+{
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  border:none;
+  position:absolute;
+}
+
+.SlideFrame
+{
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  border:none;
+  position:absolute;
+}
+
+.SlideFrame
+{
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  border:none;
+  position:absolute;
+}
+
+.Slide p
+{
+  margin:0;
+  padding:0;
+}
+
+.SlideFrame
+{
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  border:none;
+  position:absolute;
+}
+
+#wsStage
+{
+  width:920px;
+  height:690px;
+}
+
+#wsStage.PlayingSlideContainer
+{
+  overflow:hidden;
+}
+
+.Slide
+{
+  position:relative;
+  width:920px;
+  height:690px;
+  line-height:1.28;
+}
+
+.SlideNote
+{
+  width:920px;
+}
+
+.PlayingSlide
+{
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.Elegant_SlideMaster
+{
+  background-color:rgb(254, 254, 254);
+}
+
+.Elegant_SlideMaster1
+{
+  background-color:rgb(254, 254, 254);
+}
+
+.Elegant_SlideMaster2
+{
+  background-color:rgb(254, 254, 254);
+}
+
+.Rectangle_8
+{
+  font-family:'宋体,Times New Roman';
+  font-size:39px;
+  font-weight:normal;
+  font-style:normal;
+  color:rgb(0, 0, 0);
+  text-shadow:rgb(192, 192, 192) 3px 3px 4px;
+  font-variant:normal;
+  text-transform:none;
+  letter-spacing:0;
+  text-align:left;
+  vertical-align:baseline;
+  direction:ltr;
+}
+
+.Rectangle_8 p
+{
+  padding-top:8px;
+}
+
+.Rectangle_8 li
+{
+  padding-top:8px;
+}
+
+.Elegant_SlideMaster3
+{
+  background-color:rgb(254, 254, 254);
+}
+
+.Elegant_SlideMaster4
+{
+  background-color:rgb(254, 254, 254);
+}
+
+.Elegant_SlideMaster5
+{
+  background-color:rgb(254, 254, 254);
+}
+
+.Elegant_SlideMaster6
+{
+  background-color:rgb(254, 254, 254);
+}
+
+.Rectangle_7
+{
+  font-family:'宋体,Arial';
+  font-size:12px;
+  font-weight:normal;
+  font-style:normal;
+  color:rgb(0, 0, 0);
+  text-shadow:rgb(192, 192, 192) 3px 3px 4px;
+  font-variant:normal;
+  text-transform:none;
+  letter-spacing:0;
+  text-align:right;
+  vertical-align:baseline;
+  direction:ltr;
+}
+
+.Rectangle_7 p
+{
+}
+
+.Rectangle_7 li
+{
+}
+
+.Elegant_SlideMaster7
+{
+  background-color:rgb(254, 254, 254);
+}
+
+#wsStage.PlayingSlideContainer #wsSplash
+{
+  position:absolute;
+}
+
+.Slide .SlideBackground
+{
+  top:0px;
+  left:0px;
+  width:100%;
+  height:100%;
+}
+
+.Slide ul
+{
+  margin:0;
+  padding:0;
+}
+
+.Slide li
+{
+  list-style-position:outside;
+}
+
+.Slide li.MarkerInsideList
+{
+  list-style-position:inside;
+}
+
+.Slide blockquote
+{
+  margin:0;
+  padding-left:0;
+}
+
+.Slide .InlineElem
+{
+  display:inline;
+}
+
+.Slide .SubList
+{
+  display:inline;
+  padding:0;
+  zoom:1;
+}
+
+.Slide .NonBullet
+{
+  list-style-type:none;
+}
+
+.Slide .TextContainer
+{
+  width:100%;
+  height:100%;
+  vertical-align:baseline;
+}
+
+.Slide .ShapeGroup
+{
+  overflow:hidden;
+}
+
+.Slide img
+{
+  border:none;
+  -ms-interpolation-mode:bicubic;
+}
+
+.Network_SlideMaster
+{
+  background-color:rgb(255, 255, 255);
+}
+
+.Rectangle_3
+{
+  font-family:'宋体,Arial Black';
+  font-size:15px;
+  font-weight:normal;
+  font-style:normal;
+  color:rgb(0, 0, 0);
+  font-variant:normal;
+  text-transform:none;
+  letter-spacing:0;
+  text-align:right;
+  vertical-align:baseline;
+  direction:ltr;
+}
+
+.Rectangle_3 p
+{
+  padding-top:8px;
+}
+
+.Rectangle_3 li
+{
+  padding-top:8px;
+}
+
+.Network_SlideMaster1
+{
+  background-color:rgb(255, 255, 255);
+}
+
+.Network_SlideMaster2
+{
+  background-color:rgb(255, 255, 255);
+}
+
+.Rectangle_6
+{
+  font-family:'宋体,Arial';
+  font-size:12px;
+  font-weight:normal;
+  font-style:normal;
+  color:rgb(0, 0, 0);
+  font-variant:normal;
+  text-transform:none;
+  letter-spacing:0;
+  text-align:center;
+  vertical-align:baseline;
+  direction:ltr;
+}
+
+.Rectangle_6 p
+{
+}
+
+.Rectangle_6 li
+{
+}
+
+.Network_SlideMaster3
+{
+  background-color:rgb(255, 255, 255);
+}
+
+.Network_SlideMaster4
+{
+  background-color:rgb(255, 255, 255);
+}
+
+.Network_SlideMaster5
+{
+  background-color:rgb(255, 255, 255);
+}
+
+.Network_SlideMaster6
+{
+  background-color:rgb(255, 255, 255);
+}
+
+.SlideType_SlideMaster
+{
+  background-color:rgb(255, 255, 255);
+}
+
+.Rectangle_2
+{
+  font-family:'宋体,Arial';
+  font-size:15px;
+  font-weight:normal;
+  font-style:normal;
+  color:rgb(0, 0, 0);
+  font-variant:normal;
+  text-transform:none;
+  letter-spacing:0;
+  text-align:center;
+  vertical-align:baseline;
+  direction:ltr;
+}
+
+.Rectangle_2 p
+{
+}
+
+.Rectangle_2 li
+{
+}
+
+.SlideType_SlideMaster1
+{
+  background-color:rgb(255, 255, 255);
+}
+
+.SlideType_SlideMaster2
+{
+  background-color:rgb(255, 255, 255);
+}
+
+.SlideType_SlideMaster3
+{
+  background-color:rgb(255, 255, 255);
+}
+
+.SlideType_SlideMaster4
+{
+  background-color:rgb(255, 255, 255);
+}
+
+.SlideType_SlideMaster5
+{
+  background-color:rgb(255, 255, 255);
+}
+
+.Rectangle_4
+{
+  font-family:'宋体,Arial';
+  font-size:17px;
+  font-weight:normal;
+  font-style:normal;
+  color:rgb(0, 0, 0);
+  font-variant:normal;
+  text-transform:none;
+  letter-spacing:0;
+  text-align:left;
+  vertical-align:baseline;
+  direction:ltr;
+}
+
+.Rectangle_4 p
+{
+}
+
+.Rectangle_4 li
+{
+}
+
+.Pixel_SlideMaster
+{
+  background-color:rgb(255, 255, 255);
+}
+
+.Pixel_SlideMaster1
+{
+  background-color:rgb(251, 255, 255);
+}
+
+.Pixel_SlideMaster2
+{
+  background-color:rgb(251, 255, 255);
+}
+
+.Pixel_SlideMaster3
+{
+  background-color:rgb(251, 255, 255);
+}
+
+.Edge_SlideMaster
+{
+  background-color:rgb(255, 255, 255);
+}
+
+.Edge_SlideMaster1
+{
+  background-color:rgb(255, 255, 255);
+}
+
+.Edge_SlideMaster2
+{
+  background-color:rgb(255, 255, 255);
+}
+
+.Pixel_SlideMaster4
+{
+  background-color:rgb(251, 255, 255);
+}
+
+.Pixel_SlideMaster5
+{
+  background-color:rgb(251, 255, 255);
+}
+
+.Pixel_SlideMaster6
+{
+  background-color:rgb(251, 255, 255);
+}
