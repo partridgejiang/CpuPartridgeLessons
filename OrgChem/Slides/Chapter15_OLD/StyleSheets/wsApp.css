@@ -29,7 +29,7 @@
   position:relative;
   width:720px;
   height:540px;
-  line-height:1.33;
+  line-height:1.28;
 }
 
 .SlideNote
@@ -50,11 +50,6 @@
 }
 
 .N08SlideType_SlideMaster1
-{
-  background-color:rgb(255, 255, 255);
-}
-
-.N08SlideType_SlideMaster2
 {
   background-color:rgb(255, 255, 255);
 }
