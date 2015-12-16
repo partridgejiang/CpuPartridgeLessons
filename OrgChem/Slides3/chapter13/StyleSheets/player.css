@@ -1,0 +1,340 @@
+@charset "utf-8";
+html, body
+{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+}
+body
+{
+	position: relative;
+}
+.Slide  
+{
+  border: 2px solid;
+	margin: 5px auto 5px auto;
+}
+#wsStage .Slide  
+{
+  border: none;
+  margin: 0;
+}
+#noScriptNotify
+{
+  margin: 0;
+  padding: 0.2em 1em;
+  font-size: small;
+}
+table#content
+{
+  border: none;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  border-collapse: collapse;
+}
+table#content tr, table#content td
+{
+  padding: 0;
+  margin: 0;
+}
+table#content td
+{
+  vertical-align: middle;
+}
+#mainClient
+{
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  zoom: 1;
+}
+#wsStage
+{
+  position: relative;
+  visibility: inherit;
+  width: 720px;
+  height: 540px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#wsSplash
+{
+  position: relative;
+  top: 0;
+  left: 0;    
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+#wsSplash #wsSplashTitle
+{
+  position: absolute;
+  height: 60px;
+  bottom: 50%;
+  margin-bottom: -10px;
+  text-align: center;
+  width: 100%;
+}
+#wsSplash #wsSplashTitle span
+{
+  display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 16px;
+	line-height: 50px;	
+	background: url(Images/loading.gif) center bottom;
+	background-repeat: no-repeat;  	
+	font-size: 18px;
+	font-weight: bold;	
+}
+#wsSplash #wsSplashNotify
+{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 12px;
+  text-align: right;  
+  padding: 0.3em;
+  margin: 0;
+}
+#controlPanel
+{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  margin: 0;
+  padding: 5px;
+  width: 320px;  
+  height: 22px;
+  z-index: 200;
+  min-width: 310px;
+  zoom: 1;
+  background-image: url(Images/transparent.gif); 
+}
+#controlPanel #controlContent
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  z-index: 210;
+  zoom: 1;
+}
+#controlPanel:hover
+{
+}
+#controlPanel:hover #controlContent
+{
+}
+#controlPanel #slideListGroup
+{
+  display: block;
+  margin: 0;
+  padding: 0;
+  float: left;
+  position: relative;
+}
+#controlPanel #wsSlideDir
+{
+  position: absolute;
+  bottom: 24px;
+  right: 0;
+  border: 1px solid;
+  font-size: 0.8em;
+  width: 15em;
+  height: 12em;
+  max-width: 15em;
+  max-height: 12em;
+  overflow-x: hidden;
+  overflow-y: auto;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+#controlPanel #wsSlideDir ol
+{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#controlPanel #wsSlideDir ol li
+{
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid;
+  zoom: 1;
+}
+#controlPanel #wsSlideDir ol li a
+{
+  display: block;
+  text-decoration: none;
+  padding: 1px 5px;
+  height: 1%;
+}
+#controlPanel #slideListGroup
+{
+}
+#controlPanel #slideListGroup #wsSlideDir
+{
+  display: none;
+}
+#controlPanel a
+{
+  outline: none;
+}
+#controlPanel a.NavBtn
+{
+  display: block;
+  margin: 2px;
+  opacity: 0.8;
+  float: left;
+  width: 29px;
+  height: 22px;
+  background-color: #777;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: hand;
+  cursor: pointer;
+}
+#controlPanel a.NavBtn:hover
+{
+  opacity: 1.0;
+  transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+#controlPanel a.Disabled, #controlPanel a.Disabled:hover
+{
+  opacity: 0.5;
+  cursor: default;  
+  transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+}
+#controlPanel a.NavBtn span
+{
+  display: none;
+}
+#controlPanel #navWebPointLogo
+{
+  position: relative;
+  top: -14px;
+  width: 36px; 
+  height: 36px;
+  margin-left: 5px;
+  background-color: transparent;
+  background-image: url(Images/iconWebPoint.png);
+}
+#controlPanel #navFirstSlide
+{
+  background-image: url(Images/btnFirstSlide.png);
+}
+#controlPanel #navPrevSlide
+{
+  background-image: url(Images/btnPrevSlide.png);
+}
+#controlPanel #navPrevstep
+{
+  background-image: url(Images/btnPrevStep.png);
+}
+#controlPanel #navNextStep
+{
+  background-image: url(Images/btnNextStep.png);
+}
+#controlPanel #navNextSlide
+{
+  background-image: url(Images/btnNextSlide.png);
+}
+#controlPanel #navLastSlide
+{
+  background-image: url(Images/btnLastSlide.png);
+}
+#controlPanel #navAutoPlay
+{
+  background-image: url(Images/btnPlay.png);
+}
+#controlPanel #navAutoPlay.Checked
+{
+  background-image: url(Images/btnPause.png);
+}
+#controlPanel #navSlideList
+{
+  background-image: url(Images/btnList.png);
+}
+#logPanel
+{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 110;
+}
+#logPanelTitle
+{
+  position: relative;
+  top: 0;
+  height: 20px;
+  font-size: medium;
+  font-weight: bold;
+  padding: 5px;
+  padding-left: 10px;
+}
+#logPanelTitle a
+{
+  outline: none;
+}
+#logPanelTitle a.LogPanelCloser
+{
+  font-size: 6px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 10px;
+  width: 10px;
+  background-position: 0px center;
+  background-repeat: no-repeat;
+  text-decoration: none;
+}
+#logPanelTitle a.LogPanelCloser:hover
+{
+  background-position: -10px center;
+}
+#logPanelTitle .LogPanelCloser span
+{
+  visibility: hidden;
+}
+#wsLog
+{
+  position: relative;
+  height: 200px;
+  border-top: none;
+  overflow-y: auto;
+  font-size: small;
+}
+#wsLog p
+{
+  margin: 2px;
+  margin-left: 4px;
+  margin-right: 4px;
+  padding: 0;
+  border-bottom: #999999 1px dotted;
+}
+#wsLog .Warning
+{
+  color: #444444;
+}
+#wsLog .Error
+{
+  color: #FF0000;
+}

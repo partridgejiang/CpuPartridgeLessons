@@ -1,0 +1,189 @@
+﻿.SlideFrame
+{
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  border:none;
+  position:absolute;
+}
+
+.Slide p
+{
+  margin:0;
+  padding:0;
+}
+
+.SlideFrame
+{
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  border:none;
+  position:absolute;
+}
+
+#wsStage
+{
+  width:920px;
+  height:690px;
+}
+
+#wsStage.PlayingSlideContainer
+{
+  overflow:hidden;
+}
+
+.Slide
+{
+  position:relative;
+  width:920px;
+  height:690px;
+  line-height:1.33;
+}
+
+.SlideNote
+{
+  width:920px;
+}
+
+.PlayingSlide
+{
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.N2_Blends_SlideMaster
+{
+  background-color:rgb(255, 255, 255);
+}
+
+.N1_Blends_SlideMaster8
+{
+  background-color:rgb(255, 255, 255);
+}
+
+.N1_Blends_SlideMaster81
+{
+  background-color:rgb(255, 255, 255);
+}
+
+.N1_Blends_SlideMaster82
+{
+  background-color:rgb(255, 255, 255);
+}
+
+.N1_Blends_SlideMaster83
+{
+  background-color:rgb(255, 255, 255);
+}
+
+.N1_Blends_SlideMaster84
+{
+  background-color:rgb(255, 255, 255);
+}
+
+.N1_Blends_SlideMaster85
+{
+  background-color:rgb(255, 255, 255);
+}
+
+#wsStage.PlayingSlideContainer #wsSplash
+{
+  position:absolute;
+}
+
+.Slide .SlideBackground
+{
+  top:0px;
+  left:0px;
+  width:100%;
+  height:100%;
+}
+
+.Slide ul
+{
+  margin:0;
+  padding:0;
+}
+
+.Slide li
+{
+  list-style-position:outside;
+}
+
+.Slide li.MarkerInsideList
+{
+  list-style-position:inside;
+}
+
+.Slide blockquote
+{
+  margin:0;
+  padding-left:0;
+}
+
+.Slide .InlineElem
+{
+  display:inline;
+}
+
+.Slide .SubList
+{
+  display:inline;
+  padding:0;
+  zoom:1;
+}
+
+.Slide .NonBullet
+{
+  list-style-type:none;
+}
+
+.Slide .TextContainer
+{
+  width:100%;
+  height:100%;
+  vertical-align:baseline;
+}
+
+.Slide .ShapeGroup
+{
+  overflow:hidden;
+}
+
+.Slide img
+{
+  border:none;
+  -ms-interpolation-mode:bicubic;
+}
+
+.N2_Blends_SlideMaster10
+{
+  background-color:rgb(255, 255, 255);
+}
+
+.N1_Blends_SlideMaster11
+{
+  background-color:rgb(255, 255, 255);
+}
+
+.N1_Blends_SlideMaster111
+{
+  background-color:rgb(255, 255, 255);
+}
+
+.N1_Blends_SlideMaster112
+{
+  background-color:rgb(255, 255, 255);
+}
+
+.N1_Blends_SlideMaster113
+{
+  background-color:rgb(255, 255, 255);
+}
+
+.N1_Blends_SlideMaster114
+{
+  background-color:rgb(255, 255, 255);
+}
