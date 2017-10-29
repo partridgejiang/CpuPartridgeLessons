@@ -38,17 +38,21 @@
     <div class="Sidebar">
 		  <!-- TemplateBeginEditable name="SideBarContent" --><!-- TemplateEndEditable -->      
       <div id="sideAds"> <!-- Google Ads -->
-        <script type="text/javascript"><!--
-					google_ad_client = "ca-pub-8145556450134029";
+        <script type="text/javascript"><!--					
+					//google_ad_client = "ca-pub-8145556450134029";
 					/* VerticalAd1 */
+					/*
 					google_ad_slot = "1502642611";
 					google_ad_width = 160;
 					google_ad_height = 600;
+					*/
 					//-->
 				</script>
+				<!--
 				<script type="text/javascript"
-					src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+					src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
 				</script>
+				-->
       </div>
     </div>   
   </div>

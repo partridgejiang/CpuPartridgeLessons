@@ -267,8 +267,20 @@ table.BriefTable tr:hover
   background-color: #ccc;
 }
 
+img.ExampleFigure
+{
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+.ExampleFigure,
+.ExampleTable
+{
+	margin: auto 4em;
+}
 
-/************ MainContent **************/
+
+
+/************ Footer **************/
 .Footer
 {
   position: fixed;

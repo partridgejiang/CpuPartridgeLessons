@@ -15,8 +15,8 @@
 
 #wsStage
 {
-  width:720px;
-  height:540px;
+  width:920px;
+  height:690px;
 }
 
 #wsStage.PlayingSlideContainer
@@ -27,9 +27,14 @@
 .Slide
 {
   position:relative;
-  width:720px;
-  height:540px;
-  line-height:1.28;
+  width:920px;
+  height:690px;
+  line-height:1.33;
+}
+
+.SlideNote
+{
+  width:920px;
 }
 
 .PlayingSlide

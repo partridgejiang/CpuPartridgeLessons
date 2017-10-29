@@ -6,6 +6,11 @@
   background:url(../../OrgChem/Images/TitleBar.jpg) right top no-repeat #fff;
 }
 
+.NavMenu ul a
+{
+	padding: 0.2em 0.3em;
+}
+
 .ExerciseContent
 {
   margin-left: 2em;

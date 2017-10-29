@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Splitted Chem Viewer Demo</title>
+
+	<script src="../_libs/Three.js"></script>
+	<script src="../_libs/raphael-min.2.0.1.js"></script>
+	<script src="../_libs/kekule/kekule.js?module=chemWidget"></script>
+	<!--
+	<link rel="stylesheet" type="text/css" href="../_styles/default/default.css" />
+	<link rel="stylesheet" type="text/css" href="../_styles/default/defaultColor.css" />
+	<link rel="stylesheet" type="text/css" href="../_styles/default/chemWidget.css" />
+	<link rel="stylesheet" type="text/css" href="../_styles/default/chemWidgetColor.css" />
+	-->
+	<link rel="stylesheet" type="text/css" href="../_libs/kekule/themes/default/kekule.css" />
+
+	<script id="mol1" type="chemical/x-mdl-molfile">
+
+  Chem3D Core 12.003091414153D
+
+ 16 17  0  0  0  0  0  0  0  0999 V2000
+  -10.8426   -0.0000   -1.1579 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.5056   -0.0000   -1.1579 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.8371   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.5056   -0.0000    1.1579 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.8426   -0.0000    1.1579 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.5111   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.8316   -1.1579    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.4946   -1.1579    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.8261   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.4946    1.1579    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.8316    1.1579    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.5001   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.4916    2.3010    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.6461   -0.0000    2.6466 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+   -8.8456   -0.0000   -2.3010 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.6911   -2.6466    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0      
+  6  1  2  0      
+  2  3  2  0      
+  2 15  1  0      
+  3  4  1  0      
+  3 12  1  0      
+  4  5  2  0      
+  4 14  1  0      
+  5  6  1  0      
+  7  8  1  0      
+ 12  7  2  0      
+  7 16  1  0      
+  8  9  2  0      
+  9 10  1  0      
+ 10 11  2  0      
+ 11 12  1  0      
+ 11 13  1  0      
+M  END
+	</script>
+	<script id="mol2" type="chemical/x-mdl-molfile">
+
+  Chem3D Core 12.003091414193D
+
+ 16 17  0  0  0  0  0  0  0  0999 V2000
+  -10.8426   -0.0000   -1.1579 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.5056   -0.0000   -1.1579 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.8371   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.5056   -0.0000    1.1579 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.8426   -0.0000    1.1579 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.5111   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.8316   -1.1579    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.4946   -1.1579    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.8261   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.4946    1.1579    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.8316    1.1579    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.5001   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.4916    2.3010    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.6461   -0.0000    2.6466 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.8456   -0.0000   -2.3010 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+   -7.6911   -2.6466    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0      
+  6  1  1  0      
+  2  3  1  0      
+  2 15  1  0      
+  3  4  2  0      
+  3 12  1  0      
+  4  5  1  0      
+  4 14  1  0      
+  5  6  2  0      
+  7  8  1  0      
+ 12  7  2  0      
+  7 16  1  0      
+  8  9  2  0      
+  9 10  1  0      
+ 10 11  2  0      
+ 11 12  1  0      
+ 11 13  1  0      
+M  END
+	</script>
+
+	<style>
+		html, body
+		{
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+		#chemViewer1, #chemViewer2
+		{
+			border: none;
+			margin: 0;
+			float: left;
+		}
+	</style>
+
+	<script>
+		var viewerElemIds = ['chemViewer1', 'chemViewer2'];
+		var chemViewers = [];
+		function init()
+		{
+			var BNS = Kekule.ChemWidget.ComponentWidgetNames;
+			for (var i = 0, l = viewerElemIds.length; i < l; ++i)
+			{
+				var elem = document.getElementById(viewerElemIds[i]);
+				chemViewer = new Kekule.ChemWidget.Viewer(elem, null, Kekule.Render.RendererType.R3D);
+				chemViewer.setEnableToolbar(true)
+					.setToolButtons([
+							BNS.loadFile, BNS.molDisplayType, BNS.molHideHydrogens,
+							BNS.zoomIn, BNS.zoomOut,
+							BNS.rotateX, BNS.rotateY, BNS.rotateZ, BNS.reset
+						]);
+				chemViewer.setAutoSize(false).setPadding(20);
+				chemViewers.push(chemViewer);
+			}
+			// adjust size
+			adjustSize();
+
+			window.onresize = adjustSize;
+		}
+		function adjustSize()
+		{
+			var dim = Kekule.HtmlElementUtils.getViewportDimension(document);
+			var width = (dim.width - 10) / chemViewers.length;
+			for (var i = 0, l = chemViewers.length; i < l; ++i)
+			{
+				chemViewers[i].setWidth(width + 'px').setHeight(dim.height + 'px');
+			}
+		}
+
+		Kekule.X.domReady(init);
+	</script>
+</head>
+<body>
+	<div id="chemViewer1" style="width:100%;height:650px" data-chem-obj="url(#mol1)"></div>
+	<div id="chemViewer2" style="width:100%;height:650px" data-chem-obj="url(#mol2)"></div>
+</body>
+</html>

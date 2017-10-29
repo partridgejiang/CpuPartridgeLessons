@@ -1,40 +1,4 @@
-﻿.SlideFrame
-{
-  width:100%;
-  height:100%;
-  overflow:hidden;
-  border:none;
-  position:absolute;
-}
-
-.SlideFrame
-{
-  width:100%;
-  height:100%;
-  overflow:hidden;
-  border:none;
-  position:absolute;
-}
-
-.SlideFrame
-{
-  width:100%;
-  height:100%;
-  overflow:hidden;
-  border:none;
-  position:absolute;
-}
-
-.SlideFrame
-{
-  width:100%;
-  height:100%;
-  overflow:hidden;
-  border:none;
-  position:absolute;
-}
-
-.Slide p
+﻿.Slide p
 {
   margin:0;
   padding:0;
@@ -65,7 +29,12 @@
   position:relative;
   width:720px;
   height:540px;
-  line-height:1.28;
+  line-height:1.33;
+}
+
+.SlideNote
+{
+  width:720px;
 }
 
 .PlayingSlide
@@ -75,17 +44,12 @@
   left:0;
 }
 
-.Solstice_SlideMaster
+.N03SlideType_SlideMaster
 {
   background-color:rgb(255, 255, 255);
 }
 
-.Solstice_SlideMaster1
-{
-  background-color:rgb(255, 255, 255);
-}
-
-.Solstice_SlideMaster2
+.N03SlideType_SlideMaster1
 {
   background-color:rgb(255, 255, 255);
 }
@@ -158,24 +122,4 @@
 {
   border:none;
   -ms-interpolation-mode:bicubic;
-}
-
-.N02SlideType_SlideMaster
-{
-  background-color:rgb(255, 255, 255);
-}
-
-.N02SlideType_SlideMaster1
-{
-  background-color:rgb(255, 255, 255);
-}
-
-.N03SlideType_SlideMaster
-{
-  background-color:rgb(255, 255, 255);
-}
-
-.N03SlideType_SlideMaster1
-{
-  background-color:rgb(255, 255, 255);
 }

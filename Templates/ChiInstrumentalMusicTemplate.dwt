@@ -20,8 +20,10 @@
     <div class="NavMenu">
       <ul>
         <!-- InstanceBeginEditable name="NavMenu" -->
+				<!--
         <li><a href="../ChiInstrumentalMusic/index.html">课程通知</a></li>
-        <li><a href="../ChiInstrumentalMusic/Chapters.html">课件浏览</a></li>
+				-->
+        <li><a href="../ChiInstrumentalMusic/index.html">课件浏览</a></li>
         <li><a href="../ChiInstrumentalMusic/Questions.html">课程论文</a></li>
         <!-- TemplateBeginEditable name="NavMenuMore" --><!-- TemplateEndEditable -->
         <!-- InstanceEndEditable -->      
@@ -43,17 +45,21 @@
     <div class="Sidebar">
 		  <!-- InstanceBeginEditable name="SideBarContent" --><!-- InstanceEndEditable -->      
       <div id="sideAds"> <!-- Google Ads -->
-        <script type="text/javascript"><!--
-					google_ad_client = "ca-pub-8145556450134029";
+        <script type="text/javascript"><!--					
+					//google_ad_client = "ca-pub-8145556450134029";
 					/* VerticalAd1 */
+					/*
 					google_ad_slot = "1502642611";
 					google_ad_width = 160;
 					google_ad_height = 600;
+					*/
 					//-->
 				</script>
+				<!--
 				<script type="text/javascript"
-					src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+					src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
 				</script>
+				-->
       </div>
     </div>   
   </div>
